@@ -1,0 +1,4 @@
+这是nmealib源码，可在http://nmea.sourceforge.net/网站下载。
+
+nmealib移植到STM32平台，可参考野火的例子。
+                                   --野火科技
