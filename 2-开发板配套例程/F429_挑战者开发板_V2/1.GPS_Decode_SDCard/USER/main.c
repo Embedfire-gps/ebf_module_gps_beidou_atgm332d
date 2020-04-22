@@ -28,7 +28,7 @@ void WIFI_PDNPIN_SET(void)
 {
     GPIO_InitTypeDef GPIO_InitStructure;
 
-    RCC_AHB1PeriphClockCmd ( RCC_AHB1Periph_GPIOG, ENABLE);															   
+    RCC_AHB1PeriphClockCmd ( RCC_AHB1Periph_GPIOB, ENABLE);															   
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
     GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;  
